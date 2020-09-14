@@ -1,0 +1,50 @@
+.introduction {
+  padding-top: 350px;
+  background: linear-gradient(
+    to right,
+    rgba(86, 71, 64, 1) 0%,
+    rgba(27, 26, 28, 1) 100%
+  );
+  min-height: 930px;
+  position: relative;
+  z-index: 5;
+  overflow: hidden;
+
+  &::after {
+    content: '';
+    height: 924px;
+    width: 70%;
+    max-width: 984px;
+    position: absolute;
+    right: -10%;
+    bottom: 0;
+    background-image: url('images/introduction-dog.png');
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 100%;
+  }
+}
+
+.introduction__container {
+  @include container;
+}
+
+.introduction__content {
+  width: 40%;
+  z-index: 10;
+  position: relative;
+}
+
+.introduction__title {
+  font-family: $primary-font-style;
+  font-size: 44px;
+  font-weight: normal;
+  line-height: 57px;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.description-text {
+  margin-bottom: 40px;
+  color: #cdcdcd;
+}

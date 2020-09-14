@@ -1,0 +1,28 @@
+.button {
+  height: 52px;
+  width: 205px;
+  color: #292929;
+  font-family: $primary-font-style;
+  font-size: 17px;
+  border: none;
+  border-radius: 30px;
+  text-align: center;
+  cursor: pointer;
+
+  &--dark {
+    background-color: $primary-color;
+
+    &:hover {
+      background-color: #fddcc4;
+    }
+  }
+
+  &--light {
+    background-color: #fafafa;
+    border: 2px solid $primary-color;
+
+    &:hover {
+      background-color: $primary-color;
+    }
+  }
+}

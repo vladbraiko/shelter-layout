@@ -1,0 +1,25 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+.description-text {
+  font-size: 15px;
+  line-height: 24px;
+  color: $font-color;
+}

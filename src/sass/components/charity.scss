@@ -1,0 +1,74 @@
+.charity__container {
+  @include container;
+  padding: 70px 0;
+}
+
+.charity__title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.charity__list {
+  padding: 0 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.charity__item {
+  font-family: $primary-font-style;
+  color: $font-color;
+  font-size: 20px;
+  line-height: 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 200px;
+  height: 150px;
+  text-align: center;
+  padding-top: 130px;
+
+  &--food {
+    background-image: url('images/food.svg');
+    background-size: 57px 45px;
+  }
+
+  &--transportation {
+    background-image: url('images/transportation.svg');
+    background-size: 65px 65px;
+  }
+
+  &--toys {
+    background-image: url('images/toys.svg');
+    background-size: 58px 58px;
+  }
+
+  &--bowls {
+    background-image: url('images/bowl.svg');
+    background-size: 58px 58px;
+  }
+
+  &--shampoos {
+    background-image: url('images/shampoo.svg');
+    background-size: 55px 58px;
+  }
+
+  &--vitamins {
+    background-image: url('images/vitamins.svg');
+    background-size: 58px 64px;
+  }
+
+  &--medicins {
+    background-image: url('images/medicins.svg');
+    background-size: 58px 58px;
+  }
+
+  &--collars {
+    background-image: url('images/collars.svg');
+    background-size: 65px 58px;
+  }
+
+  &--sleeping {
+    background-image: url('images/sleeping.svg');
+    background-size: 54px 57px;
+  }
+}
